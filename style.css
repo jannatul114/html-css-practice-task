@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+   list-style: none;
+   text-align: center;
+}
+
+nav ul li a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.blog-1 h1{
+    text-align: center;
+    font-size: 34px;
+}
+
+.align-text{
+    text-align: center;
+}
+
+
+.blog-1 h2 {
+    font-size: 30px;
+}
+
+.blog-1 p {
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+td, th{
+    border: 2px solid black;
+  
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
