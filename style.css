@@ -142,4 +142,24 @@ margin-left: 30px;
     height: 200px;
 }
 
+.read-btn{
+    background-color: honeydew;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 4px;
+   
+    
+}
+
+.read-btn a{
+    text-decoration: none;
+}
+
+.i-block{
+    margin-top: 200px;
+}
+
+.bloc{
+    margin-top: 70px;
+}
 
