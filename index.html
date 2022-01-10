@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92c61af1ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="">Inline or block Elements</a></li>
-            <li><a href="">Block Elements</a></li>
-            <li><a href="">Inline Block elements</a></li>
+            <li><a href="#">Inline or block Elements</a></li>
+            <li><a href="#simantic">Semantic tag</a></li>
+            <li><a href="#animation">CSS animation</a></li>
         </ul>
     </nav>
 
@@ -23,13 +24,21 @@
             <h1>Inline, Inline-block or block Elements</h1>
 
             <p>Every HTML element has a default display value, depending on what type of element it is.
-                <br>
-                There are two display values: block and inline.
+
+                There are three display values: block inline and Inline-block.
             </p>
 
-            <h2 class="align-text">inline element</h2>
-            <p>An inline element does not start on a new line.</p>
-            <p>An inline element only takes up as much width as necessar</p>
+        </article>
+    </section>
+
+    <section class="blog">
+        <div class="half-width">
+            <marquee behavior="" direction="left">
+                <h2>Inline Elements</h2>
+            </marquee>
+            <p>An inline element does not start on a new line. An inline element only takes up as much width as necessar
+            </p>
+
             <ul>
                 <li>span</li>
                 <li>a</li>
@@ -46,12 +55,14 @@
                 <li>video</li>
                 <li>del</li>
                 <li></li>
-                <p></p>
             </ul>
-
-            <h2 class="align-text">Block Elements</h2>
+        </div>
+        <div class="half-width">
+            <marquee behavior="" direction="left">
+                <h2>Block Elements</h2>
+            </marquee>
             <p>A block-level element is an HTML element that begins a new line on a web page and extends the full width
-                of the available horizontal space of its parent element. <br> It creates large blocks of content like
+                of the available horizontal space of its parent element. It creates large blocks of content like
                 paragraphs or page divisions. Block-level elements are used within the HTML document's body.</p>
             <ul>
                 <li>div</li>
@@ -61,11 +72,14 @@
                 <li>h1-6</li>
                 <li>pre</li>
                 <li>hr</li>
-
             </ul>
-            <h2 class="align-text">Inline-Block Elements</h2>
+        </div>
+        <div class="half-width">
+            <marquee behavior="" direction="left">
+                <h2>Inline-Block Elements</h2>
+            </marquee>
             <p>One of the elements of the block inline is that arranging it in a line does not start a new line.
-                <br> But and
+                But and
                 height weight can be set
             </p>
 
@@ -74,16 +88,54 @@
                 <li>strong</li>
                 <li>i</li>
                 <li>small</li>
-
             </ul>
-        </article>
+        </div>
+    </section>
+
+
+
+    <section id="simantic" class="semantic">
+        <h1 class="align-text">Semantic Tag</h1>
+        <p>Semantic elements = elements with a meaning. A semantic element clearly describes its meaning to both the
+            browser and the developer.</p>
+        <p>Examples of non-semantic elements: div and span - Tells nothing about its content.</p>
+        <p>Examples of semantic elements: form, table, and article - Clearly defines its content.</p>
+        <ul>
+            <li></li>
+            <li>article</li>
+            <li>footer</li>
+            <li>main</li>
+            <li>nav</li>
+            <li>section</li>
+            <li>abbr</li>
+            <li>details</li>
+            <li>mark</li>
+            <li>title</li>
+            <li>aside</li>
+            <li>time</li>
+        </ul>
+    </section>
+
+    <section class="y-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4zWxcmtGqhc?autoplay=1&mute=1"
+            frameborder="0" allowfullscreen></iframe>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4zWxcmtGqhc?autoplay=1&mute=1"
+            frameborder="0" allowfullscreen></iframe>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
     </section>
 
     <section class="table">
         <table>
             <thead>
                 <tr>
-                    <th>no</th>
+                    <th>home</th>
                     <th>Friend's name</th>
                     <th>Birthday</th>
                     <th>Resturent</th>
@@ -91,38 +143,56 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1.</td>
-                    <td>samia</td>
+                    <td>mirpur</td>
+                    <td>name-1</td>
                     <td>3.5.2022</td>
                     <td>resturent-1</td>
                 </tr>
                 <tr>
-                    <td>1.</td>
-                    <td>rodela</td>
+                    <td>dhaka</td>
+                    <td>name-2</td>
                     <td>8.7.2022</td>
                     <td>resturent-2</td>
                 </tr>
                 <tr>
-                    <td>1.</td>
-                    <td>pushpo</td>
+                    <td>brisl</td>
+                    <td>name-3</td>
                     <td>25.5.2022</td>
                     <td>resturent-3</td>
                 </tr>
                 <tr>
-                    <td>1.</td>
-                    <td>badhon</td>
+                    <td>ctg</td>
+                    <td>name-4</td>
                     <td>11.5.2022</td>
                     <td>resturent-4</td>
                 </tr>
                 <tr>
-                    <td>1.</td>
-                    <td>sbila</td>
+                    <td>nkli</td>
+                    <td>name-5</td>
                     <td>7.5.2022</td>
                     <td>resturent-5</td>
                 </tr>
             </tbody>
         </table>
     </section>
+
+    <section id="animation" class="ani">
+        <div class="animation">
+            <h2 class="align-text">CSS Animation</h2>
+            <p class="align-text">CSS allows animation of HTML elements without using JavaScript or Flash!</p>
+            <div class="box">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="follow">
+        <h4 class="align-text">Follow me on:</h4>
+        <p class="align-text"><i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i
+                class="fab fa-pinterest"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i></p>
+    </section>
+
 </body>
 
 </html>
